@@ -1,5 +1,5 @@
 ---
 # tasks file for iptables
-- ansible.builtin.include_tasks: "{{ role_path }}/tasks/set_wlan0_iptables.yml"
-- ansible.builtin.include_tasks: "{{ role_path }}/tasks/set_tun0_iptables.yml"
-- ansible.builtin.include_tasks: "{{ role_path }}/tasks/set_iptables_boot.yml"
+- ansible.builtin.include_tasks: "{{ role_path }}/tasks/01_set_wlan0_iptables.yml"
+- ansible.builtin.include_tasks: "{{ role_path }}/tasks/02_set_tun0_iptables.yml"
+- ansible.builtin.include_tasks: "{{ role_path }}/tasks/03_set_iptables_boot.yml"
